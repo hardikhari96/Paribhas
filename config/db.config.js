@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Sequelize,DataTypes ,Model} = require("sequelize");
 module.exports.Model = Model;
 module.exports.DataTypes = DataTypes;
