@@ -2,6 +2,7 @@
   "name": "paribhas",
   "version": "1.0.0",
   "description": "A Simple Node express based Framwork For Fast Development!",
+  "bin": "./bin/cli.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
