@@ -16,6 +16,10 @@ class userController{
             }));
         });
     }
-
+    test(req,res){
+        res.json({
+            success:true
+        })
+    }
 }
 module.exports = (options)=> new userController(options)
